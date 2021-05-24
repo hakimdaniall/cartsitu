@@ -170,3 +170,15 @@
     margin-bottom: 30px;
   }
 
+  .download-btn {
+    margin-left: 30px;
+    background: #e03a3c;
+    color: #fff;
+    border-radius: 4px;
+    padding: 8px 25px;
+    white-space: nowrap;
+    transition: 0.3s;
+    font-size: 14pt;
+    font-weight: 600;
+    display: inline-block;
+  }
