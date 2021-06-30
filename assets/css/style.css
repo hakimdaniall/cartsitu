@@ -108,7 +108,7 @@ h1, h2, h3, h4, h5, h6 {
 # Get Startet Button
 --------------------------------------------------------------*/
 .get-started-btn {
-  margin-left: 30px;
+  margin-left: 0px;
   background: #e03a3c;
   color: #fff;
   border-radius: 4px;
@@ -118,6 +118,8 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 14px;
   font-weight: 600;
   display: inline-block;
+  position: relative;
+  right: 10px;
 }
 
 .get-started-btn:hover {
@@ -1940,7 +1942,7 @@ section {
 #footer {
   color: black;
   font-size: 14px;
-  background: #fffff;
+  background: #ffffff;
 }
 
 #footer .footer-top {
@@ -2024,6 +2026,11 @@ section {
 #footer .footer-top .footer-links ul a:hover {
   text-decoration: none;
   color: #fff;
+}
+
+#footer .footer-top .img-app-store-icon {
+  position: relative;
+  top: 2.5px;
 }
 
 #footer .footer-newsletter {
