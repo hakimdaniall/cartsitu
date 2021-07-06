@@ -1946,8 +1946,44 @@ section {
 }
 
 #footer .footer-top {
-  padding: 60px 0 30px 0;
+  padding: 60px 0 5px 0;
   background: linear-gradient(275deg, rgba(221,76,65,1) 0%, rgba(255,122,87,1) 0%, rgba(82,192,187,1) 100%);
+}
+
+#footer .footer-top .footer-main-content {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#footer .footer-top .footer-main-content .img-billplz-logo {
+  height: 40px;
+  margin-bottom: 15px;
+}
+
+#footer .footer-top .footer-main-content .footer-text {
+  display: flex;
+  align-items: center;
+  width: 110px;
+  color: black;
+}
+
+#footer .footer-top .footer-main-content .footer-text:hover {
+  color: #E03A3C;
+}
+
+#footer .footer-top .footer-main-content .social-media-links {
+  display: flex;
+  align-items: center;
+  width: 97px;
+}
+
+#footer .footer-top .footer-main-content .social-media-links:hover {
+  color: #E03A3C;
+  cursor: pointer;
+}
+
+#footer .footer-top .fourth-box {
+  display: inline-flex;
 }
 
 #footer .footer-top .footer-contact {
@@ -1955,7 +1991,7 @@ section {
 }
 
 #footer .footer-top .footer-contact h3 {
-  font-size: 26px;
+  font-size: 20px;
   line-height: 1;
   font-weight: 700;
 }
@@ -2031,6 +2067,7 @@ section {
 #footer .footer-top .img-app-store-icon {
   position: relative;
   top: 2.5px;
+  left: 4px;
 }
 
 #footer .footer-newsletter {
@@ -2103,4 +2140,18 @@ section {
   background: #e03a3c;
   color: #fff;
   text-decoration: none;
+}
+
+@media(max-width: 767px){
+  .footer-col {
+    width: 50%;
+    margin-bottom: 30px;
+  }
+}
+
+@media(max-width: 574px){
+  .footer-col {
+    width: 100%;
+    margin-bottom: 30px;
+  }
 }
